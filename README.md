@@ -7,6 +7,18 @@ COVID-19 is an infectious disease caused by the SARS-CoV-2 virus. The pandemic d
 The database we started from contained many blank characters and variables with little information. This type of data is not suitable for training a neural network, so a debugging and statistical study was carried out. Later we started with the development of the neural networks. The number of hyperparameters to be modified in a network is immense.
 The dedication to testing and training these networks has been considerable in the project. Different parameters and structures have been tested to find the optimal one to solve our problem with the lowest possible error.
 We found a neural network with the parameters shown in the following table that manages to predict the development of thromboembolic events with an accuracy of 96.7%. Obtaining a mean square error of 0.0308.
+<br />
+
+|    **Parameters**   |                |
+|-------------------|----------------|
+| Structure           | [38,26,1]      |
+| Number of Layers    | 3              |
+| Activation Function | ReLu + Sigmoid |
+| Cost Function       | MSE            |
+| Callbacks           | Early Stopping |
+| Optimizer           | Adam           |
+
+
 
 
 <h2>Languages and Utilities Used</h2>
